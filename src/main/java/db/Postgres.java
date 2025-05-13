@@ -286,17 +286,4 @@ public class Postgres implements DB{
             e.printStackTrace();
         }
     }
-            /*
-            for(int i = 1; i <= table.getMetaData().getColumnCount(); i++){
-                System.out.print(table.getMetaData().getColumnName(i)+"\t\t");
-            }
-            System.out.println();
-
-            do {
-                for (int i = 1; i <= table.getMetaData().getColumnCount(); i++) {
-                    System.out.print(table.getBoolean(i) + "\t\t");
-                }
-                System.out.println();
-            }while (table.next());
-            */
 }
